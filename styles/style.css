@@ -9,6 +9,40 @@
     margin: 0%;
 }
 
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position:fixed;
+    width:100%;
+    background-color:black;
+    top:0;
+    z-index:2;
+    margin-top:-50px;
+    margin-left:-10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: 0.5s;
+  }
+  
+  #navbar a{
+    font-size:10pt;
+    color:white;
+    text-decoration-color: white;
+    text-decoration-style: dashed;
+    cursor:pointer;
+  }
+  
+  #navbar a:hover{
+    font-size:13pt;
+    border:dashed 1px ghostwhite;
+    text-decoration-color: transparent;
+    cursor:pointer;
+    transition: 0.3s;
+  }
+  
+ 
+  
 
 .collection{
     display: flex;
@@ -34,6 +68,8 @@
 .img-txt{
   font-size: 3em;
   margin-top: 4px;
+  text-decoration: none;
+  color: black;
 }
 
 
@@ -53,8 +89,9 @@
 .card:hover{
     transition:  ease-in-out 0.3s;
    box-shadow: 6px 0px 1px rgba(34, 32, 32, 0.1);
-   transform: translate(0px, -15px);
+   transform: translate( 0.5px, -5px);
 }
+
 
 .img-div{
     max-width: 100%;
@@ -126,13 +163,37 @@
 }
 
 .contact{
-    display:flex;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
     justify-content: baseline;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.c-h, .c-c, .c-t{
     font-size: 1.6em;
+    margin-bottom: 10px;
+    margin-top: 10x;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    cursor: pointer;
 }
 
 .socials{
-    font-size: 1.6em;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.fa-instagram, .fa-whatsapp, .fa-phone{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
 }
 
 .sum4{
