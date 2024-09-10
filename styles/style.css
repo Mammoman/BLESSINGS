@@ -14,7 +14,7 @@
     flex-direction: row;
     justify-content: space-around;
     position:fixed;
-    width:100%;
+    width: 100%;
     background-color:black;
     top:0;
     z-index:2;
@@ -22,7 +22,7 @@
     margin-left:-10px;
     padding-top: 20px;
     padding-bottom: 20px;
-    transition: 0.5s;
+    transition: all 0.5s ease;
   }
   
   #navbar a{
@@ -42,8 +42,6 @@
   }
   
  
-  
-
 .collection{
     display: flex;
     flex-direction: column;
