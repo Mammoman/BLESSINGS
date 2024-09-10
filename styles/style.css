@@ -5,6 +5,7 @@
     justify-content: center;
     margin: 60;
     border: 1px black inset;
+    font-family: Raleway, sans-serif;
 }
 
 
@@ -61,7 +62,7 @@
 
 .product-title{
     font-size: 1.8em;
-    font-weight: 600;
+    font-weight: 500;
     margin: 0;
 }
 
@@ -106,4 +107,21 @@
     border: none;
     background-color:  white;
 }
+
+.contact-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact{
+    display:flex;
+    justify-content: baseline;
+    font-size: 1.6em;
+}
+
+.socials{
+    font-size: 1.6em;
+}
+
+
 
