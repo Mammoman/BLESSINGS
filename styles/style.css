@@ -1,0 +1,19 @@
+.bocy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card-information{
+    display: grid;
+    grid-template-columns: max-content:
+    
+}
+
+
+.img-div{
+     width:300px;
+    height:auto;
+}
